@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-widgets/static/css/main.0b774022.css",
-    "main.js": "/react-widgets/static/js/main.e4c05c30.js",
-    "index.html": "/react-widgets/index.html",
-    "main.0b774022.css.map": "/react-widgets/static/css/main.0b774022.css.map",
-    "main.e4c05c30.js.map": "/react-widgets/static/js/main.e4c05c30.js.map"
+    "main.css": "/minesweeper-ui-react/static/css/main.0b774022.css",
+    "main.js": "/minesweeper-ui-react/static/js/main.e4c05c30.js",
+    "index.html": "/minesweeper-ui-react/index.html",
+    "main.0b774022.css.map": "/minesweeper-ui-react/static/css/main.0b774022.css.map",
+    "main.e4c05c30.js.map": "/minesweeper-ui-react/static/js/main.e4c05c30.js.map"
   },
   "entrypoints": [
     "static/css/main.0b774022.css",
