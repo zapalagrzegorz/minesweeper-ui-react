@@ -36,6 +36,7 @@ function Game() {
       <div className="main">
         <h1>Minesweeper</h1>
         <p>Click to explore a tile. Alt + click to flag a tile.</p>
+        <p>You must flag all bombs</p>
         <br />
         <Board board={board} updateGame={updateGame} />
       </div>

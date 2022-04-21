@@ -12,9 +12,13 @@ export function Board({ board, updateGame }: Props) {
     <div>
       {board.grid.map((row, index) => {
         return (
-          <div key={index} className="row">
-            {row.map((tile: any, index: number) => (
-              <Tile key={index} tile={tile} updateGame={updateGame} />
+          <div key={`row${index}`} className="row">
+            {row.map((tile: any, colindex: number) => (
+              <Tile
+                key={`row${index + "" + colindex}`}
+                tile={tile}
+                updateGame={updateGame}
+              />
             ))}
           </div>
         );

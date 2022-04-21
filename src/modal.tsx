@@ -14,8 +14,6 @@ export function Modal({ won, lost, onClick }: Props) {
   return (
     <section id="modal" className={modalClassName}>
       <article className="modal-content">
-        <span className="modal-close">×</span>
-
         <h1>Game is over</h1>
 
         <p>
@@ -27,10 +25,12 @@ export function Modal({ won, lost, onClick }: Props) {
           {lost && <span>Sorry, You've lost</span>}
         </p>
         <p>
-          <button type="button" onClick={onClick}></button>
+          <button type="button" onClick={onClick}>
+            Play again
+          </button>
         </p>
       </article>
-      <div className="modal-screen">Play again</div>
+      <div className="modal-screen"></div>
     </section>
   );
 }

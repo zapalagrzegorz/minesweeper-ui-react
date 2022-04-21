@@ -15,8 +15,10 @@ export function Tile({ tile, updateGame }: Props) {
   let className = "tile";
 
   if (tile.explored) {
-    if (tile.bombed) content = "💣";
-    if (tile.adjacentBombCount()) content = tile.adjacentBombCount().toString();
+    if (tile.bombed) {
+      content = "💣";
+    } else if (tile.adjacentBombCount())
+      content = tile.adjacentBombCount().toString();
     className += " explored";
   } else if (tile.flagged) {
     content = "🚩";
